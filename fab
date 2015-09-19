@@ -1,0 +1,4 @@
+NETNAME="$HOSTNAME"
+
+chuck --blocking fabrics.ck:$1:$2:$3:$4
+
