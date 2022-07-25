@@ -32,6 +32,10 @@ For best results with network performance, please launch the patch using the uni
 
 The script works as follows:
 
+./fab [channels] [fundamental] [bases] [ratio] [scale members]
+
+So, this example:
+
 ./fab 2 300 5 2 8
 
-The parameters: 2 is the number of channels (can be any number of channels), and 300 5 2 8 refer to the tuning system mentioned above.  These parameters are passed on as flags and will determine the pitch structure of the fabric of sound.
+This example indicates that fabrics will run in 2 channel mode, with a fundamental frequency of 300 hz, with 5 bases (octaves), with a ration of 2.1 per base, and with 8 scale members between bases.
