@@ -32,6 +32,6 @@ For best results with network performance, please launch the patch using the uni
 
 The script works as follows:
 
-./fab 300 5 2 8
+./fab 2 300 5 2 8
 
-(the parameters 300 5 2 8 refer to the tuning system mentioned above.  These parameters are passed on as flags and will determine the pitch structure of the fabric of sound.
+(the parameter: 2 is the number of channels (can be any number of channels), and 300 5 2 8 refer to the tuning system mentioned above.  These parameters are passed on as flags and will determine the pitch structure of the fabric of sound.
